@@ -1,0 +1,57 @@
+/*!
+Theme Name: SF WordPress Starter Theme
+Theme URI: http://themeuri.com/
+Author: Spencer Feng
+Author URI: http://authoruri.com/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: sf-wordpress-starter-theme
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+@import "variables";
+@import "mixins";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "utilities";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+
+/*--------------------------------------------------------------
+# Grid
+--------------------------------------------------------------*/
+@import "grid";
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import "accessibility";
+
+/*--------------------------------------------------------------
+# Font Awesome
+--------------------------------------------------------------*/
+@import "font-awesome/font-awesome";
+
+/*--------------------------------------------------------------
+# Slick carousel
+--------------------------------------------------------------*/
+@import "slick/slick";
+@import "slick/slick-theme";
+
+/*--------------------------------------------------------------
+# Shortcodes
+--------------------------------------------------------------*/
+@import "shortcodes";
+
+/*--------------------------------------------------------------
+# Plugin - Visual Composer
+--------------------------------------------------------------*/
+@import "plugins/vc";
